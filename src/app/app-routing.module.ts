@@ -26,6 +26,11 @@ const routes: Routes = [
     
   },
   {
+    path: 'become-teacher',
+    component: BecomeTeacherComponent,
+
+  },
+  {
     path: 'faq',
     component: FaqComponent,
 

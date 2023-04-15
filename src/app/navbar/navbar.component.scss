@@ -1,3 +1,9 @@
+
+.bg-light{
+ border-bottom-left-radius: 30px; /* adjust the value as needed */
+  border-bottom-right-radius: 30px; /* adjust the value as needed */
+}
+
 a{
     margin-left: 5px;
     margin-right: 5px;
@@ -17,6 +23,7 @@ a{
   transition: all 0.5s;
   z-index: 997;
   padding: 15px 0;
+  
 }
 
 

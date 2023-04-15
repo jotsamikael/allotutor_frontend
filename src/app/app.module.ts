@@ -51,6 +51,7 @@ import { DashboardComponent } from './layouts/dashboard/dashboard.component';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { SidebarDashboardModule } from './layouts/sidebar-dashboard/sidebar-dashboard.module';
 import { ProfileComponent } from './layouts/common/profile/profile.component';
+import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -67,6 +68,8 @@ import { ProfileComponent } from './layouts/common/profile/profile.component';
     
   ],
   imports: [
+    ReactiveFormsModule,
+    FormsModule,
     BrowserModule,
     AppRoutingModule,
     SidebarDashboardModule,
